@@ -1,0 +1,25 @@
+<!-- 
+    Jordyn Kuhn
+    CIS 218
+    1/30/2024
+ -->
+
+ <!--doctype html-->
+{% extends "base.html" %}
+
+{% block content %}
+
+<main class="flex-shrink-0">
+    <div class="container">
+      <h1 class="mt-5">To-Do List</h1>
+      <p class="lead">
+        <ul>
+            {% for todo in todo_list %}
+                <li>{{ todo.text }} <button>Edit</button> <button>Delete</button></li>
+            {% endfor %}
+        </ul>
+        <a href = "{% url 'admin:todos_todo_add' %}"><button >Add To-Do Item</button></a>
+    </p>
+    </div>
+  </main>
+{% endblock content %}

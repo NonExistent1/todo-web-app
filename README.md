@@ -1,7 +1,7 @@
 # Assignment 2 - TODO Application
 
 ## Author
-
+Jordyn Kuhn
 
 
 ## Description
@@ -125,4 +125,7 @@ If you have more questions regarding this, don't hesitate to ask.
 
 ## Known Problems, Issues, And/Or Errors in the Program
 
-
+Edit and delete buttons are not yet functional.
+Missing a separate value for the date.
+Not yet currently ready for Heroku deployment.
+Planning on touching up appearences for final version (button design and organization)
