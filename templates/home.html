@@ -13,10 +13,25 @@
     <div class="container">
       <h1 class="mt-5">To-Do List</h1>
       <p class="lead">
-        <ul>
-            {% for todo in todo_list %}
-                <li>{{ todo.text }} <button>Edit</button> <button>Delete</button></li>
+        <table>
+          <tr>
+            <th>Thing To Do</th>
+            <th>Date</th>
+            <th></th>
+          </tr>
+
+          {% for todo in todo_list %}
+                <tr>
+                  <td>{{ todo.text }} </td>
+                  <td>{{ todo.complete_by }}</td>
+                  <td> <button>Edit</button> <button>Delete</button></li></td> 
+                </tr>
             {% endfor %}
+  
+          </tr>
+        </table>
+        <ul>
+            
         </ul>
         <a href = "{% url 'admin:todos_todo_add' %}"><button >Add To-Do Item</button></a>
     </p>
