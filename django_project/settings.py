@@ -1,7 +1,7 @@
 """
     Jordyn Kuhn
     CIS 218
-    1/30/2024
+    2/3/2024
 """
 
 """
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-f@c@vk_@s(zu8ieh&nj^y&!b_jkj$fg(5%r(s&+1h_99%^lq50
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
