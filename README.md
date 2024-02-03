@@ -120,9 +120,8 @@ If you have more questions regarding this, don't hesitate to ask.
 | **Extra Credit** Full Heroku Deployment  |   **5**|
 
 ## Outside Resources Used
-
+https://www.w3schools.com/css/css3_buttons.asp
 
 
 ## Known Problems, Issues, And/Or Errors in the Program
-Not yet currently ready for Heroku deployment.
-Planning on touching up appearences for final version (button design and organization)
+N/A
